@@ -8,7 +8,7 @@ import reviewRouter from "./routes/reviewRouter.js";
 
 dotenv.config();
 const corsOptions ={
-      origin : "*",
+      origin : "*",           
       credentials: true,
       optionSuccessStatus:200
 } 
